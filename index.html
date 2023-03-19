@@ -36,11 +36,11 @@
     </style>
   </head>
   <body>
-    <button class="launch-button" onclick="openLink()">Launch</button>
+    <button class="launch-button" onclick="openLink()">Install</button>
 
     <script>
       function openLink() {
-        window.open('https://www.example.com');
+        window.open('itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/AlexSpaces/Scylla-installer/main/test.plist');
       }
     </script>
   </body>
