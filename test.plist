@@ -9,7 +9,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>1</string>
+					<string>https://github.com/AlexSpaces/Scylla-installer/raw/main/Scylla_Cert%3DBOJ.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
