@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Launch Page</title>
+    <style>
+      body {
+        background: hsla(354, 72%, 50%, 1);
+        background: linear-gradient(45deg, hsla(279, 39%, 43%, 1) 0%, hsla(335, 57%, 36%, 1) 50%, hsla(354, 72%, 50%, 1) 100%);
+        background: -moz-linear-gradient(45deg, hsla(279, 39%, 43%, 1) 0%, hsla(335, 57%, 36%, 1) 50%, hsla(354, 72%, 50%, 1) 100%);
+        background: -webkit-linear-gradient(45deg, hsla(279, 39%, 43%, 1) 0%, hsla(335, 57%, 36%, 1) 50%, hsla(354, 72%, 50%, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#912853",endColorstr="#DA2435",GradientType=1);
+      }
+
+      .launch-button {
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 16px 32px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+        transition: transform 0.2s ease-in-out;
+        
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .launch-button:hover {
+        /* remove transform property */
+      }
+    </style>
+  </head>
+  <body>
+    <button class="launch-button" onclick="openLink()">Launch</button>
+
+    <script>
+      function openLink() {
+        window.open('https://www.example.com');
+      }
+    </script>
+  </body>
+</html>
